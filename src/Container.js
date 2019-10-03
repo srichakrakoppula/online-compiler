@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Row, Col, Button } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import Editor from './Editor';
 import Output from './Output'
 
@@ -11,7 +11,7 @@ class ContainerComponent extends Component{
                     <Col xs="auto"></Col>
                     <Col xs="5"><Editor/></Col>
                     <Col xs="1">
-                    <Button color="secondary">Compile</Button><br/>
+                    <Button color="secondary">Compile</Button>
                     <Button color="primary">Run</Button>
                     </Col>
                     <Col xs="5"><Output/></Col>
